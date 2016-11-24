@@ -1,7 +1,7 @@
 .gray-bg,nav,footer {background-color: #484848;}
 .paddR50 {padding-right: 50px;}
 .nobr {white-space: nowrap;}
-
+.clear {clear: both;}
 
 html,body {
     height:100%;
@@ -63,15 +63,12 @@ nav li a:focus {
     border-bottom: solid 2px #dbdbdb;
 }
 main {
-    height: calc(100% - 164px - 165px);
     padding: 50px 0;
 }
 .input-ico-wrap {
     float: left;
     border-radius: 4px 0 0 4px;
     background-color: #484848;
-    display: table-cell;
-    vertical-align: middle;
     width: 47px;
     height: 45px;
 }
@@ -86,7 +83,7 @@ main {
     height: 45px;
     padding-left: 10px;
     display: block;
-    width: 80%; /*на всякий случай*/
+    width: 80%; /*для старых*/
     width: calc(100% - 47px);
     margin-bottom: 30px;
     border-radius: 0 4px 4px 0;
@@ -123,8 +120,7 @@ input[type="checkbox"] + label::before {
     height: 24px;
     width: 22px;
     margin: 0 15px -5px 0;
-    background-image: url("_img/sprites.png");
-    background-repeat: no-repeat;
+    background: url("_img/sprites.png") no-repeat;
 }
 input[type="checkbox"] + label::before {
     background-position: 0 0;
@@ -135,6 +131,9 @@ input[type="checkbox"]:checked + label::before {
 footer {
     color: #fff;
     font-size: 13px;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
 }
 footer a,
 footer a:hover,
