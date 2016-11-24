@@ -63,7 +63,7 @@ nav li a:focus {
     border-bottom: solid 2px #dbdbdb;
 }
 main {
-    height: calc(100% - 164px - 161px);
+    height: calc(100% - 164px - 165px);
     padding: 50px 0;
 }
 .input-ico-wrap {
