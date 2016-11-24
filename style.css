@@ -188,4 +188,5 @@ h6 {
     .paddR50 {padding-right: 15px;}
     main {height: auto;}
     .photo {text-align: center;}
+    footer {position: relative;}
 }
