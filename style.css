@@ -64,6 +64,7 @@ nav li a:focus {
 }
 main {
     padding: 50px 0;
+    margin-bottom: 170px;
 }
 .input-ico-wrap {
     float: left;
@@ -131,8 +132,6 @@ input[type="checkbox"]:checked + label::before {
 footer {
     color: #fff;
     font-size: 13px;
-    position:fixed;
-    bottom: 0;
     width: 100%;
 }
 footer a,
